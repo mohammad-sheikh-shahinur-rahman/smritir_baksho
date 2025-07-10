@@ -1,0 +1,21 @@
+# Build configuration for code generation
+targets:
+  $default:
+    builders:
+      hive_generator|hive_generator:
+        enabled: true
+        options:
+          # Generate adapters for all classes annotated with @HiveType
+          generate_for:
+            - lib/models/*.dart
+        generate_for:
+          - lib/models/memory_model.dart
+
+# Global options
+global_options:
+  hive_generator|hive_generator:
+    options:
+      # Specify the output directory for generated files
+      build_extensions:
+        .dart: ['.g.dart']
+

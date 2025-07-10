@@ -1,0 +1,15 @@
+# Paper Texture Asset
+
+This file is a placeholder for the paper texture image that should be named:
+`paper_texture.png`
+
+You can download a vintage paper texture image and place it here to enhance the app's vintage aesthetic.
+
+Recommended specifications:
+- Format: PNG
+- Size: 1024x1024 pixels or larger
+- Style: Vintage, old paper, parchment
+- Opacity: Should work well with 0.05-0.1 opacity overlay
+
+The image will be used as a background overlay in both light and dark themes to create the vintage paper feel throughout the app.
+
